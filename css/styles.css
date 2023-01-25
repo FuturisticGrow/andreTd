@@ -150,21 +150,21 @@
     }
     
     section.module.parallax {
-        background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0)), url(/images/bgmmain.jpeg);
+        background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0)), url(./images/bgmmain.jpeg);
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
     }
     
     section.module.parallax-2 {
-        background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url(/images/bgmain2.jpeg);
+        background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url(./images/bgmain2.jpeg);
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
     }
     
     section.module.parallax-3 {
-        background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.7)), url(/images/bgmain3.jpeg);
+        background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.7)), url(./images/bgmain3.jpeg);
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
