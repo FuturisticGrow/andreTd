@@ -23,7 +23,7 @@
             margin-left: -100vw;
         }
         top {
-            margin-left: -10vw
+            margin-left: -10vw;
         }
     }
     
@@ -31,12 +31,21 @@
         .footer-links {
             display: none;
         }
+        section.module.parallax,
+        section.module.parallax-2,
+        section.module.parallax-3 {
+            background-position: 50%;
+        }
+        section.module.parallax h2 {
+            font-size: 30px;
+        }
     }
     
     @media screen and (max-width: 790px) {
         div.wrapper {
             width: 100%;
             height: 100%;
+            background-position: center;
         }
     }
     
@@ -45,5 +54,11 @@
         footer {
             box-sizing: border-box;
             align-items: center;
+        }
+    }
+    
+    @media screen and (max-width: 415px) {
+        div.owner-info {
+            padding-left: 40px;
         }
     }
