@@ -1,5 +1,5 @@
 var header = document.getElementById('header');
-var navigationHeader = document.getElementById('navigation-header');
+var navigationHeader = document.getElementById('navigationHeader');
 var content = document.getElementById('content');
 var showSidebar = false;
 
@@ -18,7 +18,7 @@ function toggleSidebar() {
     console.log(toggleSidebar);
 
     if (showSidebar) {
-        navigationHeader.style.marginLeft = '-10vw';
+        navigationHeader.style.marginLeft = '';
         navigationHeader.style.animationName = 'showSidebar';
     } else {
         navigationHeader.style.marginLeft = '-100vw';
