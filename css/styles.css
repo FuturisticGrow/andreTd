@@ -285,7 +285,6 @@
     
     h3.owner-2 {
         border-radius: 50px;
-        border-style: solid;
         border-width: 1px;
         width: 50%;
         justify-content: center;
@@ -298,4 +297,8 @@
     
     div.owner-info {
         padding-left: 20px;
+    }
+    
+    h3.owner-2 {
+        font-size: 1rem;
     }
