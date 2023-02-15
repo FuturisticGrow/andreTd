@@ -23,6 +23,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&amp;display=swap" rel="stylesheet">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
     <!-- Permite a incorporacao de posts do Facebook caso necessario
     <script src="https://connect.facebook.net/signals/config/786220359173723?v=2.9.94&amp;r=stable" async=""></script>
     <script src="https://connect.facebook.net/signals/plugins/identity.js?v=2.9.94" async=""></script> 
@@ -64,13 +65,14 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#localizacao">Localização</a>
+                </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="https://api.whatsapp.com/send?phone=5531998614876&text=Ol%C3%A1,%20boa%20tarde.%20%0AGostaria%20de%20fazer%20um%20or%C3%A7amento%20com%20voc%C3%AAs." target="_blank">Orçamentos</a>
+                    <a class="nav-link" href="#orcamentos">Orçamentos</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="https://goo.gl/maps/kyJheodX2Pb5rgrx5" target="_blank">Localização</a>
-                </li>
+
                 <li class="nav-item">
                     <a class="nav-link" href="#contato">Contato</a>
                 </li>
@@ -90,11 +92,17 @@
                 <div class="container-2">
                     <h2>E nós, da ATD Veículos, <br> viemos juntos..</h2>
                     <p>
-                        <h3>É um prazer conhecê-los.
+                        <h3 id="localizacao">É um prazer conhecê-los.
 
                         </h3> <br> Chegou a hora de se dar ao luxo de dirigir o carro dos seus sonhos. Nossa concessionária acaba de lançar uma variedade incrível de veículos de alta performance, design arrojado e tecnologia avançada. Não importa se você
                         procura um carro esportivo, familiar ou executivo, temos a opção perfeita para você. Além disso, oferecemos financiamento flexível e opções de leasing para tornar a aquisição do seu novo carro ainda mais fácil. Venha visitar-nos
                         hoje e experimente a emoção de dirigir um carro de verdade.
+                        <br> <br>
+
+                        <div class="map-responsive">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3733.0149426373523!2d-43.804901485174874!3d-20.66897106704939!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa1603327cd5433%3A0x12c93ed162214563!2sR.%20Alc%C3%ADdes%20Rodrigues%20de%20Oliveira%2C%20261%20-%20Novo%20Carijo%2C%20Conselheiro%20Lafaiete%20-%20MG%2C%2036400-000!5e0!3m2!1sen!2sbr!4v1676435951995!5m2!1sen!2sbr"
+                                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
                 </div>
             </section>
 
@@ -120,7 +128,7 @@
 
             <section class="module parallax parallax-3">
                 <h2>
-                    <a href="https://wa.me/5531998614876?text=Ol%C3%A1,%20vim%20por%20meio%20do%20site%20de%20voc%C3%AAs%20e%20gostaria%20de%20saber%20mais%20sobre%20os%20servi%C3%A7os!%20" target="_blank"> Garanta o seu!           
+                    <a href="https://wa.me/5531998614876?text=Ol%C3%A1,%20vim%20por%20meio%20do%20site%20de%20voc%C3%AAs%20e%20gostaria%20de%20saber%20mais%20sobre%20os%20servi%C3%A7os!%20" id="orcamentos" target="_blank"> Faça seu orçamento!           
                     </a>
                 </h2>
             </section>
@@ -175,6 +183,7 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&v=weekly" defer></script>
 </body>
 
 
